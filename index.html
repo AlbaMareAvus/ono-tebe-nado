@@ -10,7 +10,39 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <header class="header"></header>
+    <header class="header">
+      <nav class="header__menu">
+        <!--TODO: проверить расстояние между элементами с PP-->
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a href="#" class="header__link header__link_active">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <!--TODO: указать якорные ссылки-->
+            <a href="#" class="header__link">посмотреть лоты</a>
+          </li>
+          <li class="header__links-list-item">
+            <a href="#" class="header__link">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo">
+        <img src="./images/logo-black.svg" alt="Логотип" class="header__logo-image">
+      </a>
+      <address class="adress header__adress">
+        <ul class="adress__links-list">
+          <li class="adress__links-list-item">
+            <a href="tel:+70000000">+9 999 555 5555</a>
+          </li>
+          <li class="adress__links-list-item">
+            <a href="mailto:mail@example.com">info@sobaka.ge</a>
+          </li>
+          <li class="adress__links-list-item">
+            <span>наб. Принсенграхт 263-265,<br>Амстердам</span>
+          </li>
+        </ul>
+      </address>
+    </header>
     <main>
       <section class="cover"></section>
       <section class="lots"></section>
