@@ -1,4 +1,7 @@
-/* место для вашего кода */
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -202,6 +205,44 @@
   line-height: 1.2;
 }
 
-.about {}
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+  padding: 0 50px 180px;
+}
+
+.about__card {
+  align-items: center;
+  padding: 0;
+}
+
+.about__logo {
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+}
+
+.about__logo-image {
+  display: block;
+  margin: auto;
+  height: 100%;
+  width: 148px;
+}
+
+.about__title {
+  padding: 100px 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 20px;
+}
 
 .footer {}
