@@ -76,32 +76,50 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 165px 50px 135px;
+  padding: 165px 50px 132px;
   color: #fff;
   font-size: 100px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.15;
   letter-spacing: 60px;
   text-transform: uppercase;
 }
 
 .aligned-text_center {
+  line-height: 1;
   text-align: center;
 }
 
 .aligned-text_right {
+  line-height: 1;
   text-align: right;
 }
 
-.aligned-text_right-last-letter {
+.text_letter-spacing_0 {
   letter-spacing: 0;
+}
+
+.text_letter-spacing_3 {
+  letter-spacing: 3px;
+}
+
+.text_letter-spacing_5 {
+  letter-spacing: 5px;
+}
+
+.text_letter-spacing_17 {
+  letter-spacing: 17px;
+}
+
+.text_letter-spacing_60 {
+  letter-spacing: 60px;
 }
 
 .cover__description {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  gap: 78px;
+  gap: 48px;
   padding: 0 50px 50px;
 }
 
@@ -112,7 +130,7 @@ html {
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -207,7 +225,7 @@ html {
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 25px;
+  gap: 13px;
   padding: 0 50px 180px;
 }
 
