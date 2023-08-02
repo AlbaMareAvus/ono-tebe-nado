@@ -78,8 +78,13 @@
   font-size: 100px;
   font-weight: 700;
   line-height: 1.15;
-  letter-spacing: 60px;
+  letter-spacing: 0.6em;
+  word-spacing: -0.84em;
   text-transform: uppercase;
+}
+
+.aligned-text {
+  line-height: 1.15;
 }
 
 .aligned-text_center {
@@ -92,24 +97,16 @@
   text-align: right;
 }
 
-.text_letter-spacing_0 {
+.text_letter-spacing_first-letter {
+  letter-spacing: 0.6em;
+}
+
+.text_letter-spacing_between {
+  letter-spacing: 0.3em;
+}
+
+.text_letter-spacing_last-letter {
   letter-spacing: 0;
-}
-
-.text_letter-spacing_3 {
-  letter-spacing: 3px;
-}
-
-.text_letter-spacing_5 {
-  letter-spacing: 5px;
-}
-
-.text_letter-spacing_17 {
-  letter-spacing: 17px;
-}
-
-.text_letter-spacing_60 {
-  letter-spacing: 60px;
 }
 
 .cover__description {
@@ -224,14 +221,14 @@
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 430px 1fr;
   gap: 13px;
   padding: 0 50px 180px;
 }
 
-.about .card {
-  align-items: center;
-  padding: 0;
+.about__column {
+  justify-self: center;
+  min-height: 450px;
 }
 
 .about__logo {
