@@ -6,7 +6,7 @@
 }
 
 .header__menu {
-  margin-bottom: 2px;
+  padding-bottom: 2px;
 }
 
 .header__links-list {
@@ -40,8 +40,7 @@
 
 .header__adress {
   justify-self: end;
-  margin-bottom: 2px;
-  padding-right: 3px;
+  padding: 0 3px 2px 0;
 }
 
 .adress {
